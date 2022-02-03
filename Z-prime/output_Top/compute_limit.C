@@ -18,39 +18,7 @@ int compute_limit ()
   SetAtlasStyle();
   TH1::SetDefaultSumw2(true);
   gROOT->Reset();
-/*
-  //Sample names
-  string samples[11] = {"mazz400","mazz500","mazz750","mazz1000","mazz1250","mazz1500","mazz1750","mazz2000","mazz2250","mazz2500","mazz3000"};
 
-
-  //These are the number of expected and background events
-  //number of signal events after WmT >30 GeV cut
-  double sig[11] = {1735079.3,2196152,1045950.4,388788.56,139087.91,46453.87,16869.665,6337.7124,2573.1895,1083.3585,243.4011};
-  // SM MC events after WmT > 30 GeV
-  double bkg[11] = {8021.9,8021.9,8021.9,8021.9,8021.9,8021.9,8021.9,8021.9,8021.9,8021.9,8021.9};
-  // Number of observed events
-  double obs[11] = {7014,7014,7014,7014,7014,7014,7014,7014,7014,7014,7014};
-
-
-  //Signal cross sections
-  double xsec[11] =  {4.2589, 3.925, 1.243, 0.3937, 0.1387, 0.0524, 0.0211, 0.00894, 0.00394, 0.0018, 0.000434};
-
-  // Limit canculator configuration
-  int n_trials = 1000;
-  TRandom3 r;
-  TFeldmanCousins limit_eval(0.95);
-  cout << "trials " << n_trials << endl;
-
-  TH1F *hlimit[11], *hextraction[11];
-  double mean=0.;
-  double  err=0;
-
-  // arrays that would go into thee TGraph
-  // 
-  double mass[11] = {400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 3000};
-  double xsec_limit[11];
-  double obs_xsec_limit[11];
-*/
     
   //Sample names
   string samples[11] = {"Z400","Z500","Z750","Z1000","Z1250","Z1500","Z1750","Z2000","Z2250","Z2500","Z3000"};

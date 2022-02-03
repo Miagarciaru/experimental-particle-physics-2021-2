@@ -22,7 +22,7 @@ TH1F *h_singletop;
 TH1F *h_ttbar;
 
 //Lepton's distributions
-std::string histname = "hist_leadleptpt";
+//std::string histname = "hist_leadleptpt";
 //std::string histname = "hist_leadlept_ptc"; // DONT WORK
 //std::string histname = "hist_leadleptetc"; // DONT WORK
 //std::string histname = "hist_leadlepteta"; // DONT WORK
@@ -39,7 +39,7 @@ std::string histname = "hist_leadleptpt";
 //std::string histname = "hist_mt";
 
 
-//std::string histname = "hist_mazz";
+std::string histname = "hist_mazz";
 //std::string histname = "hist_Topmass";
 //std::string histname = "hist_Wmass";
 float lumi = 1000.;
